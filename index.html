@@ -8,7 +8,27 @@
   </head>
   <body>
     <header class="header">
-      <img src="" alt="" class="header-logo" />
+      <img src="img/Logo.svg" alt="logo" class="header-logo" />
+      <form action="#" class="search-form">
+        <img src="img/search.svg" alt="search" class="search-form__icon" />
+        <input type="text" class="search-form__input" placeholder="Поиск" />
+      </form>
+      <div class="header-interface">
+        <div class="header-interface__user">
+          <svg class="header-interface__icon">
+            <use xlink:href="img/sprite.svg#user"></use>
+          </svg>
+          <span class="header-interface__username">Admin</span>
+        </div>
+
+        <svg class="header-interface__icon">
+          <use xlink:href="img/sprite.svg#settings"></use>
+        </svg>
+
+        <svg class="header-interface__icon">
+          <use xlink:href="img/sprite.svg#out"></use>
+        </svg>
+      </div>
     </header>
   </body>
 </html>
