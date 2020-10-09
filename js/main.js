@@ -5,3 +5,14 @@ $(".sidebar-menu__item--priority").click(function () {
     "sidebar-menu__icon--priority-active"
   );
 });
+//Переключение вкладок меню
+$("ul.sidebar-menu").on(
+  "click",
+  "li:not(.sidebar-menu__item--active)",
+  function () {
+    $(this)
+      .addClass("sidebar-menu__item--active")
+      .siblings()
+      .removeClass("sidebar-menu__item--active");
+  }
+);
