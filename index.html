@@ -53,20 +53,28 @@
             </svg>
             <span class="sidebar-menu__text">Завершенные</span>
           </li>
-          <li class="sidebar-menu__item">
+          <li class="sidebar-menu__item sidebar-menu__item--priority">
             <svg class="sidebar-menu__icon">
               <use xlink:href="img/sprite.svg#priority"></use>
             </svg>
             <span class="sidebar-menu__text">Приоритет</span>
-            <svg class="sidebar-menu__icon">
+            <svg class="sidebar-menu__icon sidebar-menu__icon--priority">
               <use xlink:href="img/sprite.svg#arrow"></use>
             </svg>
           </li>
+          <ul class="priority-list">
+            <li class="priority-list__item">Высокий</li>
+            <li class="priority-list__item">Средний</li>
+            <li class="priority-list__item">Низкий</li>
+          </ul>
         </ul>
       </aside>
       <div class="tasks-container"></div>
       <!-- /.tasks-container -->
     </div>
     <!-- /.wrapper -->
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
