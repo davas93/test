@@ -69,7 +69,50 @@
           </ul>
         </ul>
       </aside>
-      <div class="tasks-container"></div>
+
+      <div class="tasks-container">
+        <button class="new-task">
+          <img class="new-task__icon" src="img/add.svg" alt="add">
+          Новая задача
+        </button>
+
+        <div class="tasks-block">
+          <div class="tasks-block__date">
+            <span class="tasks-block__week-day">Сегодня</span>
+            <span class="tasks-block__month-day">29 сентября 2020</span>
+          </div>
+          <!-- /.date -->
+          <div class="tasks-block__container">
+            <div class="card">
+              <svg class="card-priority">
+                <use xlink:href="img/sprite.svg#task-priority"></use>
+              </svg>
+              <div class="card-interface">
+                <svg class="card-interface__icon">
+                  <use xlink:href="img/sprite.svg#editing"></use>
+                </svg>
+                <svg class="card-interface__icon">
+                  <use xlink:href="img/sprite.svg#delete"></use>
+                </svg>
+                <svg class="card-interface__icon">
+                  <use xlink:href="img/sprite.svg#menu"></use>
+                </svg>
+              </div>
+              <!-- /.card-interface -->
+              <span class="card__time">10:52</span>
+              <span class="card__task-name">Новая задача</span>
+              <div class="card__subtask">
+                <span class="card__subtask-text">Подзадач</span>
+                <span class="card__subtask-num">0</span>
+              </div>
+              <!-- /.card__subtask -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.tasks-block__container -->
+        </div>
+        <!-- /.tasks-block -->
+      </div>
       <!-- /.tasks-container -->
     </div>
     <!-- /.wrapper -->
