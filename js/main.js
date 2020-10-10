@@ -10,9 +10,20 @@ $("ul.sidebar-menu").on(
   "click",
   "li:not(.sidebar-menu__item--active)",
   function () {
-    $(this)
+    $(this).not(":last-of-type")
       .addClass("sidebar-menu__item--active")
       .siblings()
       .removeClass("sidebar-menu__item--active");
   }
 );
+$("ul.priority-list").on(
+  "click",
+  "li:not(.priority-list__item--active)",
+  function () {
+    $(this)
+      .addClass("priority-list__item--active")
+      .siblings()
+      .removeClass("priority-list__item--active");
+  }
+);
+
