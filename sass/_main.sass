@@ -57,6 +57,7 @@
     width: 15px
 .wrapper
   display: flex
+  height: 100vh
 .sidebar
   padding-top: 40px
   width: 280px
@@ -115,6 +116,8 @@
     cursor: pointer
     &--active
       color: $accent-color
+.tasks-container
+  overflow-y: scroll
 .new-task
   position: absolute
   top: 90px
@@ -133,7 +136,7 @@
     width: 15px
     margin-right: 8px
 .tasks-block
-  padding: 60px 40px
+  padding: 60px 40px 0 40px
   &__date
     display: flex
     align-items: center
@@ -166,7 +169,11 @@
   &-priority
     width: 40px
     height: 40px
-    fill: red
+    fill: #FF0000
+    &--middle
+      fill: #fdc025
+    &--low
+      fill: #32BF00
   &-interface
     position: absolute
     top: 30px
@@ -214,12 +221,16 @@
     width: 70px
     height: 70px
 .drop-menu
+  display: none
   position: absolute
+  z-index: 10
   top: 70px
   right: -19px
   background-color: $text-icons
   border-radius: 10px
   filter: drop-shadow(3px 3px 19px rgba(0, 0, 0, 0.2))
+  &--active
+    display: block
   &__item
     display: flex
     align-items: center
@@ -240,6 +251,7 @@
     margin-left: -18px
     fill: inherit
   &-inquiry
+    display: none
     position: absolute
     top: 0
     left: -163px
@@ -247,6 +259,7 @@
     border-radius: 10px
     box-shadow: 3px 3px 19px rgba(0, 0, 0, 0.2)
   &-template
+    display: none
     position: absolute
     top: 33px
     left: -137px

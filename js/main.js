@@ -27,3 +27,12 @@ $("ul.priority-list").on(
   }
 );
 
+//меню карточки
+$("#task-menu1").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu1").toggleClass("drop-menu--active");
+});
+$("#task-menu2").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu2").toggleClass("drop-menu--active");
+});
