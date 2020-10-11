@@ -188,8 +188,12 @@
   &__task-name
     display: block
     margin-top: 10px
+    max-width: 180px
     font-weight: 600
     font-size: 20px
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
   &__subtask
     margin-top: 20px
     &-text
@@ -201,3 +205,42 @@
       font-weight: 600
       font-size: 16px
       color: $accent-color
+  &__progressbar
+    position: absolute
+    bottom: 20px
+    right: 20px
+    width: 70px
+    height: 70px
+.drop-menu
+  position: absolute
+  top: 70px
+  right: -19px
+  background-color: $text-icons
+  border-radius: 10px
+  filter: drop-shadow(3px 3px 19px rgba(0, 0, 0, 0.2))
+  ::after
+    content: ''
+    position: absolute
+    right: 35px
+    top: -24px
+    border: 9px solid transparent
+    border-bottom: 15px solid $text-icons
+  &__item
+    display: flex
+    align-items: center
+    padding: 8px 30px
+    font-size: 14px
+    color: $secondary-text
+    cursor: pointer
+    fill: $secondary-text
+    &:not(:last-child)
+      border-bottom: 1px solid #CFD8DC
+    &:hover
+      fill: $accent-color
+      color: $accent-color
+  &__icon
+    width: 8px
+    height: 12px
+    margin-right: 10px
+    margin-left: -18px
+    fill: inherit
