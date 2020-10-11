@@ -36,3 +36,47 @@ $("#task-menu2").click(function () {
   console.log("Вы кликнули по меню");
   $("#menu2").toggleClass("drop-menu--active");
 });
+$("#task-menu3").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu3").toggleClass("drop-menu--active");
+});
+$("#task-menu4").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu4").toggleClass("drop-menu--active");
+});
+$("#task-menu5").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu5").toggleClass("drop-menu--active");
+});
+$("#task-menu6").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu6").toggleClass("drop-menu--active");
+});
+$("#task-menu7").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu7").toggleClass("drop-menu--active");
+});
+$("#task-menu8").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu8").toggleClass("drop-menu--active");
+});
+$("#task-menu9").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu9").toggleClass("drop-menu--active");
+});
+$("#task-menu10").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu10").toggleClass("drop-menu--active");
+});
+$("#task-menu11").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu11").toggleClass("drop-menu--active");
+});
+$("#task-menu12").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu12").toggleClass("drop-menu--active");
+});
+$("#task-menu13").click(function () {
+  console.log("Вы кликнули по меню");
+  $("#menu13").toggleClass("drop-menu--active");
+});
