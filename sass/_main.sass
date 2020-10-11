@@ -218,13 +218,6 @@
   background-color: $text-icons
   border-radius: 10px
   filter: drop-shadow(3px 3px 19px rgba(0, 0, 0, 0.2))
-  ::after
-    content: ''
-    position: absolute
-    right: 35px
-    top: -24px
-    border: 9px solid transparent
-    border-bottom: 15px solid $text-icons
   &__item
     display: flex
     align-items: center
@@ -244,3 +237,24 @@
     margin-right: 10px
     margin-left: -18px
     fill: inherit
+  &-inquiry
+    position: absolute
+    top: 0
+    left: -163px
+    background-color: $text-icons
+    border-radius: 10px
+    box-shadow: 3px 3px 19px rgba(0, 0, 0, 0.2)
+  &-template
+    position: absolute
+    top: 33px
+    left: -137px
+    background-color: $text-icons
+    border-radius: 10px
+    box-shadow: 3px 3px 19px rgba(0, 0, 0, 0.2)
+  &::after
+    content: ''
+    position: absolute
+    right: 35px
+    top: -24px
+    border: 9px solid transparent
+    border-bottom: 15px solid $text-icons
