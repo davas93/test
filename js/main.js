@@ -80,13 +80,113 @@ $("#task-menu13").click(function () {
   console.log("Вы кликнули по меню");
   $("#menu13").toggleClass("drop-menu--active");
 });
-$("#inquiry").hover(function (e) { 
+$("#inquiry1").hover(function (e) { 
   e.preventDefault();
    $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
 });
-$(document).mouseup(function (e){ // событие клика по веб-документу
-    if (!$(".card-interface__icon").is(e.target) // если клик был не по нашему блоку
-        && $(".card-interface__icon").has(e.target).length === 0) { // и не по его дочерним элементам
-      $(".drop-menu").removeClass("drop-menu--active"); // скрываем его
+$("#template1").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$("#inquiry2").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$("#template2").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$("#inquiry3").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$("#template3").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$("#inquiry4").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$("#template4").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$("#inquiry5").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$("#template5").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$("#inquiry6").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$("#template6").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$("#inquiry7").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$("#template7").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$("#inquiry8").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$("#template8").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$("#inquiry9").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$("#template9").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$("#inquiry10").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$("#template10").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$("#inquiry11").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$("#template11").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$("#inquiry12").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$("#template12").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$("#inquiry13").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$("#template13").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-template").toggleClass("drop-menu-template--active")
+});
+$(document).mouseup(function (e){
+    if (!$(".card-interface__icon").is(e.target) 
+        && $(".card-interface__icon").has(e.target).length === 0) { 
+      $(".drop-menu").removeClass("drop-menu--active"); 
     }
   });
