@@ -80,3 +80,13 @@ $("#task-menu13").click(function () {
   console.log("Вы кликнули по меню");
   $("#menu13").toggleClass("drop-menu--active");
 });
+$("#inquiry").hover(function (e) { 
+  e.preventDefault();
+   $(".drop-menu-inquiry").toggleClass("drop-menu-inquiry--active")
+});
+$(document).mouseup(function (e){ // событие клика по веб-документу
+    if (!$(".card-interface__icon").is(e.target) // если клик был не по нашему блоку
+        && $(".card-interface__icon").has(e.target).length === 0) { // и не по его дочерним элементам
+      $(".drop-menu").removeClass("drop-menu--active"); // скрываем его
+    }
+  });
