@@ -190,3 +190,25 @@ $(document).mouseup(function (e){
       $(".drop-menu").removeClass("drop-menu--active"); 
     }
   });
+
+$(".new-task").click(function(){
+  console.log("Добавляется карточка с новой задачей")
+});
+$(".drop-menu__item").click(function(){
+  console.log("Выполняется действие в соответствии с пунктом меню")
+});
+$(".sidebar-menu__text").click(function(){
+  console.log("Карточки фильтруются в соответствии с данным пунктом")
+});
+$(".priority-list__item").click(function(){
+  console.log("Карточки фильтруются еще и в соответствии с данным приоритетом вдобавок")
+});
+$(".header-interface__user").click(function(){
+  console.log("Тут личный кабинет")
+});
+$("#settings").click(function(){
+  console.log("Тут настройки приложения")
+});
+$("#exit").click(function(){
+  console.log("Тут выход из учетки")
+});

@@ -118,8 +118,12 @@
       color: $accent-color
 .tasks-container
   overflow-y: scroll
+  -ms-overflow-style: none
+  &::-webkit-scrollbar
+    width: 0
 .new-task
   position: absolute
+  z-index: 1000
   top: 90px
   right: 30px
   display: flex
@@ -277,3 +281,44 @@
     top: -24px
     border: 9px solid transparent
     border-bottom: 15px solid $text-icons
+
+  //Адаптив
+@media ( max-width: 1260px )
+  .search-form
+    max-width: 350px
+  .header-interface
+    &__user
+      margin-right: 20px
+  .sidebar
+    width: 200px
+    &-menu
+      &__item
+        padding-left: 25px
+      &__text
+        font-size: 14px
+  .card
+    width: 275px
+    height: 180px
+    &__time
+      font-size: 12px
+    &__subtask
+      margin-top: 5px
+      &-text
+        font-size: 12px
+      &-num
+        font-size: 14px
+    &__task-name
+      font-size: 16px
+    &__progressbar
+      width: 50px
+      height: 50px
+  .priority-list__item
+    font-size: 14px
+    margin-left: 80px
+  .new-task
+    font-size: 12px
+  .tasks-block
+    &__date
+      padding-bottom: 20px
+    &__week-day
+      font-size: 16px
