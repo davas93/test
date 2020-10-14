@@ -850,10 +850,13 @@
         </div>
         <!-- /.task-head -->
         <div class="task-modal__descr">
-          <img src="img/description.svg" alt="descr" class="task-modal__descr-icon">
-          <p class="task-modal__descr-text">Компании требуется отслеживание некоторого количества задач, приоритет их выполнения будет отслеживаться самим
-          оператором (человеком, который будет следить за этими задачами), но для облегчения его работы, у каждой задачи будет
-          определенное число подзадач, которое необходимо видеть рядом с задачей.</p>
+          <div class="task-modal__descr-head"><img src="img/description.svg" alt="descr" class="task-modal__descr-icon">
+          <h2 class="task-modal__descr-title">Описание</h2></div>
+          <!-- /.task-modal__descr-head -->
+          <p class="task-modal__descr-text">Компании требуется отслеживание некоторого количества задач, приоритет их выполнения
+            будет отслеживаться самим
+            оператором (человеком, который будет следить за этими задачами), но для облегчения его работы, у каждой задачи будет
+            определенное число подзадач, которое необходимо видеть рядом с задачей.</p>
         </div>
         <!-- /.task-descr -->
           <div class="task-modal__subtasks">
@@ -875,8 +878,16 @@
             </div>
             <!-- /.task-modal__progressbar -->
             <ul class="task-modal__subtasks-list">
-              <li class="task-modal__subtasks-item"><input type="checkbox" class="custom-checkbox" id="subtask" value="yes">
-              <label for="subtask">Ознакомиться с техническим заданием</label></li>
+              <li class="task-modal__subtasks-item"><input type="checkbox" class="custom-checkbox" id="subtask1" value="yes">
+              <label for="subtask1">Ознакомиться с техническим заданием</label></li>
+              <li class="task-modal__subtasks-item"><input type="checkbox" class="custom-checkbox" id="subtask2" value="yes">
+                <label for="subtask2">Разработать прототип приложения</label></li>
+              <li class="task-modal__subtasks-item"><input type="checkbox" class="custom-checkbox" id="subtask3" value="yes">
+                <label for="subtask3">Разработать дизайн приложения, учитывая цветовую палитру, указанную в ТЗ, удобство интерфейса и современные тенденции</label></li>
+              <li class="task-modal__subtasks-item"><input type="checkbox" class="custom-checkbox" id="subtask4" value="yes">
+                <label for="subtask4">Сверстать блоки по макету</label></li>
+              <li class="task-modal__subtasks-item"><input type="checkbox" class="custom-checkbox" id="subtask5" value="yes">
+                <label for="subtask5">Запрограммировать логику</label></li>
             </ul>
           </div>
           <!-- /.task-modal__subtasks -->
@@ -904,30 +915,31 @@
       <div class="task-actions">
         <h2 class="task-actions__title">Действия</h2>
         <button class="task-actions__button"><svg class="task-actions__button-icon">
-          <use xlink:href="img/sprite.svg#inquiry">Запрос в базу данных</use>
-        </svg></button>
+          <use xlink:href="img/sprite.svg#inquiry"></use>
+        </svg>Запрос в базу данных</button>
         <button class="task-actions__button"><svg class="task-actions__button-icon">
-            <use xlink:href="img/sprite.svg#template">Запрос в базу данных</use>
-          </svg></button>
+            <use xlink:href="img/sprite.svg#template"></use>
+          </svg>Шаблон документа</button>
         <button class="task-actions__button"><svg class="task-actions__button-icon">
-            <use xlink:href="img/sprite.svg#to-form">Запрос в базу данных</use>
-          </svg></button>
+            <use xlink:href="img/sprite.svg#to-form"></use>
+          </svg>Сформировать</button>
         <button class="task-actions__button"><svg class="task-actions__button-icon">
-            <use xlink:href="img/sprite.svg#arrow-right">Запрос в базу данных</use>
-          </svg></button>
+            <use xlink:href="img/sprite.svg#arrow-right"></use>
+          </svg>Перенаправить</button>
         <button class="task-actions__button"><svg class="task-actions__button-icon">
-            <use xlink:href="img/sprite.svg#excel">Запрос в базу данных</use>
-          </svg></button>
+            <use xlink:href="img/sprite.svg#excel"></use>
+          </svg>Выгрузить в Excel</button>
         <button class="task-actions__button"><svg class="task-actions__button-icon">
-            <use xlink:href="img/sprite.svg#pdf">Запрос в базу данных</use>
-          </svg></button>
+            <use xlink:href="img/sprite.svg#pdf"></use>
+          </svg>Выгрузить в PDF</button>
         <button class="task-actions__button"><svg class="task-actions__button-icon">
-            <use xlink:href="img/sprite.svg#report">Запрос в базу данных</use>
-          </svg></button>
+            <use xlink:href="img/sprite.svg#report"></use>
+          </svg>Отправить отчет</button>
       </div>
       <!-- /.task-actions -->
     </div>
     <!-- /.task-modal -->
+    <div class="overlay"></div>
 
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/main.js"></script>
