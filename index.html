@@ -842,6 +842,92 @@
       <!-- /.tasks-container -->
     </div>
     <!-- /.wrapper -->
+    <div class="task-modal">
+      <div class="task-settings-wrap">
+        <div class="task-modal__head">
+          <img src="img/head.svg" alt="head" class="task-modal__head-icon">
+          <h2 class="task-modal__head-text">Разработать приложение для создания и отслеживания задач</h2>
+        </div>
+        <!-- /.task-head -->
+        <div class="task-modal__descr">
+          <img src="img/description.svg" alt="descr" class="task-modal__descr-icon">
+          <p class="task-modal__descr-text">Компании требуется отслеживание некоторого количества задач, приоритет их выполнения будет отслеживаться самим
+          оператором (человеком, который будет следить за этими задачами), но для облегчения его работы, у каждой задачи будет
+          определенное число подзадач, которое необходимо видеть рядом с задачей.</p>
+        </div>
+        <!-- /.task-descr -->
+          <div class="task-modal__subtasks">
+            <div class="task-modal__subtasks-head">
+              <img src="img/subtask.svg" alt="subtasks" class="task-modal__subtasks-icon">
+              <h2 class="task-modal__subtasks-title">Подзадачи</h2>
+              <span class="task-modal__subtasks-num">5</span>
+              <button class="task-modal__subtasks-add"><svg class="task-modal__subtasks-add-icon">
+                <use xlink:href="img/sprite.svg#add"></use>
+              </svg>Добавить элемент</button>
+            </div>
+            <!-- /.task-modal__subtasks-head -->
+            <div class="task-modal__progressbar">
+              <span class="task-modal__progress">40%</span>
+              <div class="task-modal__progressline">
+                <div class="scale"></div>
+              </div>
+              <!-- /.task-modal__progressline -->
+            </div>
+            <!-- /.task-modal__progressbar -->
+            <ul class="task-modal__subtasks-list">
+              <li class="task-modal__subtasks-item"><input type="checkbox" class="custom-checkbox" id="subtask" value="yes">
+              <label for="subtask">Ознакомиться с техническим заданием</label></li>
+            </ul>
+          </div>
+          <!-- /.task-modal__subtasks -->
+          <div class="task-modal__priority">
+            <div class="task-modal__priority-head">
+              <img src="img/status.svg" alt="priority" class="task-modal__priority-icon">
+              <h2 class="task-modal__priority-title">Приоритет</h2>
+            </div>
+            <!-- /.task-modal__priority-head -->
+            <div class="task-modal__priority-change">
+              <svg class="task-modal__priority-status">
+                <use xlink:href="img/sprite.svg#task-priority"></use>
+              </svg>
+              <select name="" id="" class="task-modal__priority-select">
+                <option value="Высокий">Высокий</option>
+                <option value="Средний">Средний</option>
+                <option value="Низкий">Низкий</option>
+              </select>
+            </div>
+            <!-- /.task-modal__priority-change -->
+          </div>
+          <!-- /.task-modal__priority -->
+      </div>
+      <!-- /.task-settings-wrap -->
+      <div class="task-actions">
+        <h2 class="task-actions__title">Действия</h2>
+        <button class="task-actions__button"><svg class="task-actions__button-icon">
+          <use xlink:href="img/sprite.svg#inquiry">Запрос в базу данных</use>
+        </svg></button>
+        <button class="task-actions__button"><svg class="task-actions__button-icon">
+            <use xlink:href="img/sprite.svg#template">Запрос в базу данных</use>
+          </svg></button>
+        <button class="task-actions__button"><svg class="task-actions__button-icon">
+            <use xlink:href="img/sprite.svg#to-form">Запрос в базу данных</use>
+          </svg></button>
+        <button class="task-actions__button"><svg class="task-actions__button-icon">
+            <use xlink:href="img/sprite.svg#arrow-right">Запрос в базу данных</use>
+          </svg></button>
+        <button class="task-actions__button"><svg class="task-actions__button-icon">
+            <use xlink:href="img/sprite.svg#excel">Запрос в базу данных</use>
+          </svg></button>
+        <button class="task-actions__button"><svg class="task-actions__button-icon">
+            <use xlink:href="img/sprite.svg#pdf">Запрос в базу данных</use>
+          </svg></button>
+        <button class="task-actions__button"><svg class="task-actions__button-icon">
+            <use xlink:href="img/sprite.svg#report">Запрос в базу данных</use>
+          </svg></button>
+      </div>
+      <!-- /.task-actions -->
+    </div>
+    <!-- /.task-modal -->
 
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/main.js"></script>
