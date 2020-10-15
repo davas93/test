@@ -225,3 +225,28 @@ $(".task-actions__button").hover(function (e) {
   e.preventDefault();
   $(this).find(".task-actions__template").toggleClass("task-actions__template--active")
 });
+
+$('.task-modal__priority-select').change(function(){
+    if($(".task-modal__priority-select option:selected").text()=="Средний")
+    $(".task-modal__priority-status").removeClass("high low").addClass("middle");
+    if($(".task-modal__priority-select option:selected").text()=="Низкий")
+    $(".task-modal__priority-status").removeClass("high middle").addClass("low");
+    if($(".task-modal__priority-select option:selected").text()=="Высокий")
+    $(".task-modal__priority-status").removeClass("middle low").addClass("high")
+});
+
+$(".task-modal__head-text").click(function(){
+  console.log("При клике редактируется текст в поле и появляются кнопки сохранить и отмена")
+})
+$(".task-modal__descr-text").click(function(){
+  console.log("При клике редактируется текст в поле и появляются кнопки сохранить и отмена")
+})
+$(".task-modal__subtasks-add").click(function(){
+  console.log("Добавляется новая подзадача и меняется счетчик рядом")
+})
+$(".task-modal__subtasks-act").click(function(){
+  console.log("удаляется или редактируется подзадача")
+})
+$(".task-actions__button").click(function(){
+  console.log("выполняется действие соответствующее кнопке")
+})
