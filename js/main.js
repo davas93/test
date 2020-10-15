@@ -212,3 +212,16 @@ $("#settings").click(function(){
 $("#exit").click(function(){
   console.log("Тут выход из учетки")
 });
+$(".task-modal__subtasks-item").hover(function (e) { 
+  e.preventDefault();
+  $(this).toggleClass("task-modal__subtasks-item--active")
+  .find(".task-modal__subtasks-interface").toggleClass("task-modal__subtasks-interface--active")
+});
+$(".task-actions__button").hover(function (e) { 
+  e.preventDefault();
+  $(this).find(".task-actions__inquiry").toggleClass("task-actions__inquiry--active")
+});
+$(".task-actions__button").hover(function (e) { 
+  e.preventDefault();
+  $(this).find(".task-actions__template").toggleClass("task-actions__template--active")
+});

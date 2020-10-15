@@ -83,9 +83,9 @@
     <path d="M10 0H2a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V6l-6-6zM5.498 14.19c-.309.29-.765.42-1.296.42a2.233 2.233 0 01-.308-.018v1.426H3v-3.936A7.53 7.53 0 014.219 12c.557 0 .953.106 1.22.319.254.202.426.533.426.923-.001.392-.131.723-.367.948zm3.807 1.355c-.42.349-1.059.515-1.84.515-.468 0-.799-.03-1.024-.06v-3.917A7.943 7.943 0 017.66 12c.757 0 1.249.136 1.633.426.415.308.675.799.675 1.504 0 .763-.279 1.29-.663 1.615zM13 12.77h-1.532v.911H12.9v.734h-1.432v1.604h-.906V12.03H13v.74zM10 7H9V2l5 5h-4z"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 23" id="report">
-    <path d="M10.143 1L17 7.857v13.714H1V1h9.143z" stroke="#FF9800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-    <path d="M9.572 1v6.286H17" stroke="#FF9800" stroke-linecap="round" stroke-linejoin="round"></path>
-    <path d="M5.572 17v-3.428M9 17v-4.572M12.428 17v-5.714" stroke="#FF9800" stroke-width="2" stroke-linecap="round"></path>
+    <path d="M10.143 1L17 7.857v13.714H1V1h9.143z" stroke="#CFD8DC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M9.572 1v6.286H17" stroke="#CFD8DC" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M5.572 17v-3.428M9 17v-4.572M12.428 17v-5.714" stroke="#CFD8DC" stroke-width="2" stroke-linecap="round"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" id="template">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v6.667h20V0H0zm17.778 2.222H2.222v2.222h15.556V2.222zM0 8.889V20h8.889V8.889H0zm6.667 2.222H2.222v6.667h4.445V11.11z"></path>
