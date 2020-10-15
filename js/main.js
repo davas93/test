@@ -250,3 +250,14 @@ $(".task-modal__subtasks-act").click(function(){
 $(".task-actions__button").click(function(){
   console.log("выполняется действие соответствующее кнопке")
 })
+
+
+$(".card-interface").find("svg:first").click(function(){
+  $(".overlay").show()
+  $(".task-modal").css("display", "flex")
+});
+
+$(".close-modal").click(function(){
+  $(".overlay").hide()
+  $(".task-modal").hide()
+});
